@@ -1,9 +1,11 @@
 import React from 'react'
 
+import PageHeader from "./PageHeader";
+
 const Employees = () => {
   return (
     <div>
-      <h1>Employees</h1>
+        <PageHeader name='Employees' />
     </div>
   )
 }

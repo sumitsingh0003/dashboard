@@ -1,39 +1,65 @@
 import React from "react";
 import Areas from "./charts/Areas";
+import PageHeader from "./PageHeader";
+import { useNavigate } from "react-router-dom";
+import DropDown from "./charts/DropDown";
+
+import { state } from "../utils/index";
 
 const MainPage = () => {
-  
+  const navigate = useNavigate();
+  const innerBox = state[0].machines;
+
+  const handleGroup = (boxData, grpNum) => {
+    const data = boxData;
+    const grpNums = grpNum;
+    navigate("/group", { state: { data, grpNums } });
+  };
+
   return (
     <div>
-      <section className="drpSec">
-        <div className="container">
-        <div className="charts">
-         <Areas />
+      <div className="container">
+        <div className="titlBx">
+          <PageHeader name='All Groups' />
         </div>
-          <div className="dropdownBox">
-            <div className="drpMenu">
-              <select>
-                <option>Groups</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-              </select>
-            </div>
-            <div className="drpMenu">
-              <select>
-                <option>Load Current</option>
-                <option>Speed</option>
-                <option>Production Plane</option>
-                <option>Power Consumer</option>
-                <option>Feat Rate Change</option>
-              </select>
-            </div>
+
+        <div className="grpSection">
+          <div className="row">
+            {state.map((value, ind) => {
+              return (
+                <div
+                  className="col-md-6"
+                  key={ind}
+                  onClick={() => handleGroup(value.machines, value.groupType )}
+                >
+                  <div className="grpBox">
+                    <div className="row">
+                      {innerBox.map((val, i) => {
+                        return (
+                          <div className="col-md-6" key={`${ind}-${i}`}>
+                            <div className="grpMchn" >
+                              <img src={val.img} alt={val.name} />
+                              <p>{val.name}</p>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
-      </section>
+
+        <div className="drp">
+          <DropDown />
+        </div>
+        
+        <div className="charts">
+          <Areas />
+        </div>
+      </div>
     </div>
   );
 };

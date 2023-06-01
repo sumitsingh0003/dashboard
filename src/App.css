@@ -1,12 +1,12 @@
 .sidebar {
   position: fixed;
-  left: 0;
   top: 0;
   bottom: 0;
   background: #fff;
   padding: 20px;
   width: 18%;
   box-shadow: 0 7px 30px 0 hsla(210,7%,48%,.11);
+  transition: all 0.3s linear;
 }
 .mainLogo {
   display: flex;
@@ -55,16 +55,15 @@
 
 .dahboardMain {
   position: relative;
-  overflow: hidden;
+  overflow: hidden scroll;
   display: flex;
   width: 100%;
 }
 .fulBodyPart {
   background-color: #fafbfb;
   width: 100%;
-  margin-left: 18%;
-  height: 100vh;
-  max-height: 100%;
+  height: 100%;
+  max-height: 100%;transition: all 0.3s linear;
 }
 
 .navbar {
@@ -136,17 +135,20 @@
   margin-left: 8px;
   color: #9ca3af;
 }
+
 .dropdownBox {
-  display: flex;
-  justify-content: space-around;margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
 }
 .drpMenu {
   width: 20%;
+  margin-right: 20px;
 }
 .drpSec {
   background: #fff;
   border-radius: 30px;
-  padding: 50px;
+  padding: 35px 30px;
   box-shadow: 0 10px 40px 0 hsla(210,7%,48%,.11);
 }
 .drpMenu select {
@@ -160,4 +162,135 @@
 }
 .bodyPart {
   padding: 30px;
+}
+.pageTitle {
+  margin-bottom: 30px;
+}
+.pageTitle p {
+  color: #9ca3af;
+  font-size: 16px;
+  margin-bottom: 0;text-transform: capitalize;
+}
+.pageTitle h2 {
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: 700;
+  margin-bottom: 10px;text-transform: capitalize;
+}
+
+.grpSection {
+  margin-bottom: 40px;
+}
+.grpMchn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  background: #ffffff;padding: 10px 0px 0px 0px;
+  border-radius: 5px;border: 1px solid #e7e7e7;
+}
+.grpBox {
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #fafbfb;
+  /* box-shadow: 0 5px 15px 0 hsla(210,7%,48%,.11); */
+  box-shadow: 0px 5px 10px #00000033;
+}
+.grpBox .row .col-md-6 {
+  padding: 0 5px;
+}
+
+.grpMchn p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.grpBox .row .col-md-6:nth-child(4) .grpMchn {
+  margin: 0;
+}
+.grpBox .row .col-md-6:nth-child(3) .grpMchn {
+  margin-bottom: 0;
+}
+.grpMchn img {
+  width: 100%;
+}
+.sgrpBx img {
+  width: 100%;
+}
+.sgrpBx {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #fafbfb;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  box-shadow: 0px 5px 10px #00000033;
+}
+.sgrpBx p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.modal-dialog {
+  max-width: unset !important;
+  width: 70% !important;
+}
+.tableForm ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-body{padding: 40px;}
+
+.tableForm ul li {
+  padding: 8px 15px;
+  background: #ddd;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+li.active {
+  border-bottom: none !important;
+  background: #fff !important;
+  box-shadow: 0px 0px 9px 1px #ddd;
+}
+.tableSec {
+  background: #ffffff;
+  padding: 30px;
+  border-top: none;
+  box-shadow: 0px 0px 9px 1px #ddd;
+}
+button.btn-close {
+  outline: none !IMPORTANT;
+  box-shadow: none !important;
 }

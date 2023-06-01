@@ -1,9 +1,11 @@
 import React from 'react'
 
+import PageHeader from "./PageHeader";
+
 const Orders = () => {
   return (
     <div>
-      <h1>Orders</h1>
+      <PageHeader name='Orders' />
     </div>
   )
 }

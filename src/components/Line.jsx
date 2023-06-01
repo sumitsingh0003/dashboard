@@ -1,9 +1,10 @@
 import React from 'react'
+import PageHeader from "./PageHeader";
 
 const Line = () => {
   return (
     <div>
-        <h1>Line</h1> 
+        <PageHeader name='Line' />
     </div>
   )
 }

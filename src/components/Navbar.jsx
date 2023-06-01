@@ -6,12 +6,12 @@ import { BsChatLeft } from "react-icons/bs";
 import { RiNotification3Line } from "react-icons/ri";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
-const Navbar = () => {
+const Navbar = ({sideBar, setSideBar}) => {
   return (
     <>
       <div className='navbar_main'>
         <div className='navigationBar'>
-          <button>
+          <button  onClick={()=>setSideBar(!sideBar)}>
             <AiOutlineMenu/>
           </button>
         </div>

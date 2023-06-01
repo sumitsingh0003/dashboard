@@ -1,9 +1,11 @@
 import React from 'react'
+import PageHeader from "./PageHeader";
+
 
 const AllGroups = () => {
   return (
     <div>
-      <h1>All Groups</h1>
+       <PageHeader name='AllGroups' />
     </div>
   )
 }

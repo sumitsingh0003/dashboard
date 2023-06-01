@@ -1,9 +1,11 @@
 import React from 'react'
 
+import PageHeader from "./PageHeader";
+
 const Customers = () => {
   return (
     <div>
-      <h1>Customers</h1>
+      <PageHeader name='Customers' />
     </div>
   )
 }
