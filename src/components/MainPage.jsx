@@ -52,13 +52,16 @@ const MainPage = () => {
           </div>
         </div>
 
+        <div className="botmSection">
         <div className="drp">
           <DropDown />
         </div>
-        
         <div className="charts">
           <Areas />
         </div>
+        </div>
+
+
       </div>
     </div>
   );

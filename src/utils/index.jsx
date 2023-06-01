@@ -40,9 +40,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -50,7 +50,7 @@ export const state = [
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -87,9 +87,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -134,9 +134,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -181,9 +181,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -234,9 +234,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -281,9 +281,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -328,9 +328,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -375,9 +375,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -428,9 +428,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -475,9 +475,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -522,9 +522,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -569,9 +569,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -622,9 +622,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -669,9 +669,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -716,9 +716,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
@@ -763,9 +763,9 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
-          { id: 1, keyName: "Emergency Stop", value: "80%" },
-          { id: 1, keyName: "Hydrolic not on", value: "80%" },
-          { id: 1, keyName: "Tool not clamp", value: "80%" },
+          { id: 1, keyName: "Emergency Stop", value: "06:00" },
+          { id: 1, keyName: "Hydrolic not on", value: "07:00" },
+          { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
           { id: 1, keyName: "Total Power on Time", value: "80%" },
