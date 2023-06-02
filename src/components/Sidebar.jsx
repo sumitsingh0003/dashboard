@@ -1,9 +1,11 @@
 import {React} from 'react'
 import { Link } from 'react-router-dom'
-import { AiOutlineShoppingCart, AiOutlineStock } from 'react-icons/ai';
+// import { AiOutlineShoppingCart, AiOutlineStock } from 'react-icons/ai';
 import { IoMdContacts } from 'react-icons/io';
-import { RiContactsLine } from 'react-icons/ri';
-import { MdOutlineCancel } from "react-icons/md";
+// import { RiContactsLine } from 'react-icons/ri';
+import { GrFormClose } from "react-icons/gr";
+// import { MdOutlineCancel } from "react-icons/md";
+import Logo from '../Img/download.png'
 
 const Sidebar = ({sideBar, setSideBar}) => {
 
@@ -13,10 +15,10 @@ const Sidebar = ({sideBar, setSideBar}) => {
       <div className='mainSidebar'>
         <div className='mainLogo'>
           <Link to="/">
-            <img src='https://web2rise.com/wp-content/themes/web2rise/assets/images/logo.png' alt="Main Logo"/>
+            <img src={Logo} alt="Main Logo"/>
           </Link>
           <button className='sideBrClose' onClick={()=>setSideBar(!sideBar)}>
-            <MdOutlineCancel />
+            <GrFormClose />
           </button>
         </div>
         <div className='sideMenu'>
@@ -26,7 +28,7 @@ const Sidebar = ({sideBar, setSideBar}) => {
                   <li><Link to="/all-groups"><IoMdContacts /> <span>All Groups</span></Link></li>
                 </ul>
               </li>
-              <li>Pages
+              {/* <li>Pages
                 <ul>
                   <li><Link to="/orders"><AiOutlineShoppingCart /> <span>Orders</span></Link></li>
                   <li><Link to="/employees"><IoMdContacts /> <span>Employees</span></Link></li>
@@ -37,7 +39,7 @@ const Sidebar = ({sideBar, setSideBar}) => {
                 <ul>
                   <li><Link to="/line"><AiOutlineStock /> <span>Line</span> </Link></li>
                 </ul>
-              </li>
+              </li> */}
           </ul>
         </div>
       </div></div>

@@ -15,8 +15,8 @@
   margin-bottom: 20px;justify-content: space-between;
 }	
 .mainLogo img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
 }
 
@@ -82,7 +82,7 @@
   justify-content: center;
   border: none;
   outline: none;
-  font-size: 20px; transition: all 0.2s linear;
+  font-size: 25px; transition: all 0.2s linear;
 }
 .sideBrClose:hover {
   background: #f7f7f7;
@@ -187,7 +187,7 @@
   justify-content: center;
   margin-bottom: 10px;
   flex-wrap: wrap;
-  background: #ffffff;padding: 10px 0px 0px 0px;
+  background: #ffffff;padding: 10px;
   border-radius: 5px;border: 1px solid #e7e7e7;
 }
 .grpBox {
@@ -198,7 +198,17 @@
   background: #fafbfb;
   /* box-shadow: 0 5px 15px 0 hsla(210,7%,48%,.11); */
   box-shadow: 0px 5px 10px #00000033;
+  text-align: center;
 }
+.grpBox:hover{
+  box-shadow: 0px 2.5px 5px #00000033;
+}
+.grpBox h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
 .grpBox .row .col-md-6 {
   padding: 0 5px;
 }
@@ -255,9 +265,17 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-
-tr:nth-child(even) {
-  background-color: #dddddd;
+thead {
+  background: #484646;
+  color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #ebebeb;
+}
+tr:first-child {
+  background: #484646;
+  color: #fff;
+  font-weight: 600;
 }
 .modal-dialog {
   max-width: unset !important;
@@ -274,21 +292,33 @@ tr:nth-child(even) {
 
 .tableForm ul li {
   padding: 8px 15px;
-  background: #ddd;
   cursor: pointer;
   text-transform: capitalize;
   font-size: 18px;
+  position: relative;
 }
 li.active {
   border-bottom: none !important;
   background: #fff !important;
   box-shadow: 0px 0px 9px 1px #ddd;
+  border-radius: 10px 10px 0px 0px;
 }
-.tableSec {
+li.active:after {
+  content: '';
+  position: absolute;
   background: #ffffff;
-  padding: 30px;
-  border-top: none;
-  box-shadow: 0px 0px 9px 1px #ddd;
+  width: 104%;
+  left: 0px;
+  bottom: -10px;
+  height: 10px;
+}
+
+.tableSec {
+    background: #ffffff;
+    padding: 30px;
+    border-top: none;
+    box-shadow: 0px 0px 9px 1px #ddd;
+    border-radius: 0px 10px 10px 10px;
 }
 button.btn-close {
   outline: none !IMPORTANT;

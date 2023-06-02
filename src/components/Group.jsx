@@ -98,12 +98,6 @@ const Group = () => {
                 </ul>
                 <div className="tableSec">
                   <table>
-                    <thead>
-                      <tr>
-                        <th>Company</th>
-                        <th>Contact</th>
-                      </tr>
-                    </thead>
                     <tbody>
                     {dataLink[accordionData].map((val, i)=>{
                       return(

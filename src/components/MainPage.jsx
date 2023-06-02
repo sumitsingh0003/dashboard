@@ -15,6 +15,7 @@ const MainPage = () => {
     const grpNums = grpNum;
     navigate("/group", { state: { data, grpNums } });
   };
+  
 
   return (
     <div>
@@ -39,12 +40,13 @@ const MainPage = () => {
                           <div className="col-md-6" key={`${ind}-${i}`}>
                             <div className="grpMchn" >
                               <img src={val.img} alt={val.name} />
-                              <p>{val.name}</p>
+                              {/* <p>{val.name}</p> */}
                             </div>
                           </div>
                         );
                       })}
                     </div>
+                    <h3>{value.groupType}</h3>
                   </div>
                 </div>
               );

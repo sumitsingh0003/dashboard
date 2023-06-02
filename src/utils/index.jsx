@@ -15,6 +15,7 @@ export const state = [
         color: "#00FF00",
         img:ImageOne,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -24,33 +25,38 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
-          { id: 1, keyName: "Current Program Number", value: "80%" },
+          { id: 1, keyName: "Current Program Comment", value: "XYZ Comment" },  
           { id: 1, keyName: "Projected Part Count", value: "80%" },
           { id: 1, keyName: "Actual Part Count", value: "80%" },
-          { id: 1, keyName: "Cycle Time", value: "80%" },
-          { id: 1, keyName: "Feet Rate", value: "80%" },
+          { id: 1, keyName: "Current Cycle Time", value: "12:00" },
+          { id: 1, keyName: "Feed Rate", value: "80%" },
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
         offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -63,6 +69,7 @@ export const state = [
         color: "#FF0000",
         img:ImageThree,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -72,12 +79,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -87,17 +96,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -110,6 +122,7 @@ export const state = [
         color: "grey",
         img:ImageTwo,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -119,12 +132,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -134,17 +149,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -157,6 +175,7 @@ export const state = [
         img:ImageFour,
         color: "#FFFF00",
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -166,12 +185,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -181,17 +202,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -210,6 +234,7 @@ export const state = [
         color: "#00FF00",
         img:ImageOne,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -219,12 +244,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -234,17 +261,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -257,6 +287,7 @@ export const state = [
         color: "#FF0000",
         img:ImageThree,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -266,12 +297,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -281,17 +314,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -304,6 +340,7 @@ export const state = [
         color: "grey",
         img:ImageTwo,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -313,12 +350,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -328,17 +367,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -351,6 +393,7 @@ export const state = [
         color: "#FFFF00",
         img:ImageFour,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -360,12 +403,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -375,17 +420,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -404,6 +452,7 @@ export const state = [
         color: "#00FF00",
         img:ImageOne,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -413,12 +462,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -428,17 +479,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -451,6 +505,7 @@ export const state = [
         color: "#FF0000",
         img:ImageThree,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -460,12 +515,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -475,17 +532,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -498,6 +558,7 @@ export const state = [
         color: "grey",
         img:ImageTwo,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -507,12 +568,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -522,17 +585,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -545,6 +611,7 @@ export const state = [
         color: "#FFFF00",
         img:ImageFour,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -554,12 +621,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -569,17 +638,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -598,6 +670,7 @@ export const state = [
         color: "#00FF00",
         img:ImageOne,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -607,12 +680,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -622,17 +697,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -645,6 +723,7 @@ export const state = [
         color: "#FF0000",
         img:ImageThree,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -654,12 +733,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -669,17 +750,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -692,6 +776,7 @@ export const state = [
         color: "grey",
         img:ImageTwo,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -701,12 +786,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -716,17 +803,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
@@ -739,6 +829,7 @@ export const state = [
         color: "#FFFF00",
         img:ImageFour,
         general_Info: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Company Name", value: "XYZ Name" },
           { id: 1, keyName: "Machine Model", value: "80%" },
           { id: 1, keyName: "Machine Make", value: "80%" },
@@ -748,12 +839,14 @@ export const state = [
           { id: 1, keyName: "No of Axis", value: "80%" },
         ],
         load_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Maximum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Minimum Load", value: "80%(x) 70%(y) 65%(z)" },
           { id: 1, keyName: "Spindle Load", value: "80%" },
         ],
         production_Data: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Current Program Name", value: "XYZ Name" },
           { id: 1, keyName: "Current Program Number", value: "787" },
           { id: 1, keyName: "Projected Part Count", value: "80%" },
@@ -763,17 +856,20 @@ export const state = [
           { id: 1, keyName: "Spindle RPM", value: "80%" },
         ],
         alarm_Trends: [
+          { id: 1, keyName: "Specifications", value: "Time" },
           { id: 1, keyName: "Emergency Stop", value: "06:00" },
           { id: 1, keyName: "Hydrolic not on", value: "07:00" },
           { id: 1, keyName: "Tool not clamp", value: "08:00" },
         ],
         efficiency: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Total Power on Time", value: "80%" },
           { id: 1, keyName: "Total Operaing time", value: "80%" },
           { id: 1, keyName: "Total Ideal Time", value: "80%" },
           { id: 1, keyName: "Total Efficiency", value: "80%" },
         ],
-        offset_Change: [
+        offset_Change_Record: [
+          { id: 1, keyName: "Specifications", value: "Values" },
           { id: 1, keyName: "Offset Change Max Value", value: "80%" },
           { id: 1, keyName: "Offset Change Min Value", value: "80%" },
           { id: 1, keyName: "Offset Change Current Value", value: "80%" },
